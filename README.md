@@ -14,7 +14,7 @@ Solid-state batteries offer significant advantages over traditional liquid-elect
 * **3D Microstructure Generation:** Simulates the random placement of spherical Active Material (AM) and Solid Electrolyte (SE) particles within a cubic simulation box.
 * **Percolation Analysis:** Identifies connected clusters of AM and SE particles that span the entire simulation domain, crucial for assessing effective ionic and electronic conductivity.
 * **Property Calculation:** Computes critical metrics for battery performance assessment:
-    * **Utilization Level (UL):** Quantifies the efficiency of material usage within percolating clusters for both AM and SE.
+    * **Utilization Level (UL):** Quantifies the efficiency of material usage within percolating clusters for both AM & SE.
     * **Specific Surface Area (SSA):** Calculates the exposed surface area of percolating AM particles, accounting for self-overlaps using an improved "Golden Spiral Method" for point distribution. 
     * **Active Interface Area (AIA):** Determines the contact area between AM and SE particles, vital for electrochemical reactions, with multiple calculation methods to account for complex overlaps.
 * **Parallel Processing:** Utilizes Python's `multiprocessing` library to distribute simulation runs for different AM fractions across multiple CPU cores, significantly reducing overall runtime.
