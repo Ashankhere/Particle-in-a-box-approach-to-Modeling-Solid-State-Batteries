@@ -4,11 +4,11 @@
 
 This repository hosts a Python-based simulation framework designed for the microstructural modeling of composite cathodes in all-solid-state batteries (ASSBs). The core objective is to understand the intricate relationship between the microstructure of battery components and their resulting electrochemical properties and overall performance. Leveraging percolation theory, the model simulates the distribution and connectivity of active material (AM) and solid electrolyte (SE) particles within a defined 3D volume (a "particle-in-a-box" approach) to predict key metrics such as utilization level, specific surface area, and active interface area.
 
-This work builds upon existing research to provide a more efficient and accurate open-source tool for exploring the vast parameter space of SSB microstructures, thereby accelerating research and development in this promising energy storage technology.
+This work is an attempt to develop an efficient and accurate open-source tool for exploring the vast parameter space of SSB microstructures, thereby accelerating research and development in this promising energy storage technology.
 
 ## Motivation
 
-Solid-state batteries offer significant advantages over traditional liquid-electrolyte batteries, including enhanced safety, higher energy density, and improved cycle life. However, their performance is heavily influenced by the microstructure of the composite cathode, particularly the high resistance at the solid-solid interfaces between AM and SE. Effective cathode design requires a deep understanding of how factors like particle size, composition, porosity, and electrode thickness impact ionic and electronic conduction pathways. [cite_start]This simulation framework aims to provide this understanding, guiding the optimization of cathode microstructures for improved SSB performance.
+Solid-state batteries offer significant advantages over traditional liquid-electrolyte batteries, including enhanced safety, higher energy density, and improved cycle life. However, their performance is heavily influenced by the microstructure of the composite cathode, particularly the high resistance at the solid-solid interfaces between AM and SE. Effective cathode design requires a deep understanding of how factors like particle size, composition, porosity, and electrode thickness impact ionic and electronic conduction pathways. This simulation framework aims to provide this understanding, guiding the optimization of cathode microstructures for improved SSB performance.
 ## Key Features
 
 * **3D Microstructure Generation:** Simulates the random placement of spherical Active Material (AM) and Solid Electrolyte (SE) particles within a cubic simulation box.
